@@ -1,7 +1,7 @@
 import { StatusBar } from "native-base";
 
 import { AppProviders } from "./src/providers";
-import { Pools } from "./src/screens/Pools";
+import { Routes } from "./src/routes";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      <Pools />
+      <Routes/>
     </AppProviders>
   );
 }
